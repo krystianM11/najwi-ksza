@@ -95,5 +95,41 @@ public class Main {
 }
 
 
+
+
+
+
+
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Podaj pierwszą liczbę: ");
+        int a = scanner.nextInt();
+
+        System.out.print("Podaj drugą liczbę: ");
+        int b = scanner.nextInt();
+
+        System.out.print("Podaj trzecią liczbę: ");
+        int c = scanner.nextInt();
+
+        if (a < b && b < c) {
+            System.out.println("Liczby są rosnące");
+        }
+        else if (a > b && b > c) {
+            System.out.println("Liczby są malejące");
+        }
+        else {
+            System.out.println("Liczby nie są ani rosnące, ani malejące");
+        }
+
+        scanner.close();
+    }
+}
+
+
 */
 
