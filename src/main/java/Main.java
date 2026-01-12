@@ -29,3 +29,71 @@ public class Main {
         scanner.close();
     }
 }
+
+
+/*
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Podaj pierwszą liczbę: ");
+        int a = scanner.nextInt();
+
+        System.out.print("Podaj drugą liczbę: ");
+        int b = scanner.nextInt();
+
+        System.out.print("Podaj trzecią liczbę: ");
+        int c = scanner.nextInt();
+
+        if (a <= b && a <= c) {
+            System.out.println("Najmniejsza liczba to: " + a);
+        }
+        else if (b <= a && b <= c) {
+            System.out.println("Najmniejsza liczba to: " + b);
+        }
+        else {
+            System.out.println("Najmniejsza liczba to: " + c);
+        }
+
+        scanner.close();
+    }
+}
+
+
+
+
+
+
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Podaj pierwszą liczbę: ");
+        int a = scanner.nextInt();
+
+        System.out.print("Podaj drugą liczbę: ");
+        int b = scanner.nextInt();
+
+        System.out.print("Podaj trzecią liczbę: ");
+        int c = scanner.nextInt();
+
+        if (a == b && b == c) {
+            System.out.println("Wszystkie liczby są równe");
+        }
+        else {
+            System.out.println("Liczby nie są równe");
+        }
+
+        scanner.close();
+    }
+}
+
+
+*/
+
